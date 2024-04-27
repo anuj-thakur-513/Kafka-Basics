@@ -41,6 +41,11 @@ docker run -p 9092:9092 \
 confluentinc/cp-kafka
 ```
 
+Initialize the Admin
+```bash
+node admin.js
+```
+
 Open a terminal and run Producer, then enter the required data in format "<rider-name> <location(north/south)>"
 ```bash
 node producer.js
